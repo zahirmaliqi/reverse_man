@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #222;
+    font-size: 120%;
+}
+
+.container{
+    background: rgba(80, 74, 74, 0.777);
+    color: white;
+    padding: 26px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 500px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container #input, #num_value{
+    padding: 8px 20px;
+    font-family: inherit;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-radius: 18px;
+    background: #7e7e7e4b;
+    color: white;
+    width: 90%;
+}
+
+.bttn{
+    margin: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10%;
+    border: none;
+    outline: none;
+    background: #7e7e7e4b;
+    color: white;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
